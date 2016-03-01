@@ -1,7 +1,7 @@
 module Html.Server (toString) where
 
 import Html exposing (Html)
-import Native.Html
+import Native.HtmlUtils
 
 toString : Html -> String
-toString = Native.Html.toString
+toString = Native.HtmlUtils.toString
