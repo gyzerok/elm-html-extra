@@ -1,4 +1,4 @@
-module Html.Server (toString) where
+module Html.Utils (toString) where
 
 import Html exposing (Html)
 import Native.HtmlUtils
