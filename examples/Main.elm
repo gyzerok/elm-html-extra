@@ -1,5 +1,5 @@
 import Html exposing (..)
-import Html.Server
+import Html.Utils
 
 view : Html
 view =
@@ -9,4 +9,4 @@ view =
         ]
 
 main =
-    text <| Html.Server.toString view
+    text <| Html.Utils.toString view
